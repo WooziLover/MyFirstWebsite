@@ -4,7 +4,7 @@ const http = require('http'),
 server.on('request',(request,response)=>{
    console.log(request);	
    response.writeHead(200,{'Content-Type':'text/plain'});
-   response.write('HELLO!!! MY FIRST WEBSITE');
+   response.write('HI THIS IS TRISTYN\'S FIRST WEBSITE');
    response.end();
 });
 
