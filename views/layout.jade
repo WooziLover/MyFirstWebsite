@@ -1,8 +1,18 @@
 doctype html
 html
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+  script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js')
+	script(src='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js')
+	link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap-theme.min.css')
+	link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css')
+
+	
   head
     title= 'Tristyn'
     link(rel='stylesheet', href='/stylesheets/style.css')
+
+
   body
     block menu
     block content
