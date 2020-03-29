@@ -1,4 +1,9 @@
 extends layout
 
 block content
-	h1= 'About Page'
+    h1= 'About Page'
+    form.form-inline(role="form", method="post")
+        div.form-group
+            label.sr-only()
+            input.favorite(name="favorite",placeholder="Enter an item")
+        button.btn.btn-default(type="submit") Submit
