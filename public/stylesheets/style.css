@@ -18,3 +18,9 @@ h1 {
 	padding: 50px;
 	text-align: center;
 }
+
+li.logo a.logo>img {
+	max-width: 30px;
+	max-height: 30px;
+}
+
